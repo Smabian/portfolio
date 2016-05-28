@@ -1,0 +1,36 @@
+/*General*/
+
+
+/*Header*/
+.logo {
+  background: blue;
+}
+
+.title {
+  background: red;
+}
+
+/*Navbar*/
+
+
+/*Banner*/
+.banner {
+  background: green;
+}
+
+/*Portfolio*/
+.project1 {
+  background: grey;
+}
+.project2 {
+  background: purple;
+}
+.project3 {
+  background: orange;
+}
+
+/*Footer*/
+
+.social {
+  background: cyan;
+}
