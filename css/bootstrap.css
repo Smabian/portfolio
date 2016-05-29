@@ -668,14 +668,14 @@ address {
 }
 @media (min-width: 992px) {
   .container {
-    width: 950px;
+    width: 980px;
   }
 }
 /*@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-*/}
+}*/
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -1440,7 +1440,7 @@ address {
     width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .modal-lg {
     width: 900px;
   }
