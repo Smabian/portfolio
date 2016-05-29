@@ -7,22 +7,21 @@
 
   <title>Portfolio Page - Martin Wenzel</title>
   <!-- Link to css stylesheets -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
   <div class="container">
 
     <!-- Header with Logo and Title -->
-    <header>
-      <div class="row">
-        <div class="col-md-6 logo">
-          <p>Logo</p>
+    <header class="row">
+        <div class="col-xs-2">
+          <img class="logo" src="img/Logo-Large500.png" alt="Logo">
         </div>
-        <div class="col-md-6 title">
-          <p>Title</p>
+        <div class="col-xs-10 text-right">
+          <h1>Smabian</h1>
+          <h4>Front-End Development</h4>
         </div>
-      </div>
     </header>
 
     <!-- Navbar -->
@@ -33,35 +32,38 @@
     </nav>
 
     <!-- Banner -->
-    <section class="banner">
-      <div class="row">
-        <div class="col-md-12 banner">
-          <p>Banner</p>
+    <section class="row hero">
+        <div class="col-md-12">
+          <img class="Banner" src="img/Banner-Large5000.png" alt="Banner">
         </div>
-      </div>
     </section>
 
     <!-- Portfolio items -->
-    <section class="portfolio">
-      <div class="row">
-        <div class="col-md-4 project1">
-          <p>Project 1</p>
-        </div>
-        <div class="col-md-4 project2">
-          <p>Project 2</p>
-        </div>
-        <div class="col-md-4 project3">
-          <p>Project 3</p>
-        </div>
+    <section class="row portfolio">
+      <div class="col-md-12">
+        <h2 id="portfolio_title">Featured Work</h2>
+      </div>
+      <div class="col-md-4 project text-center">
+        <img src="http://placehold.it/500x200">
+        <h3>Appify</h3>
+        <a href="#">Githublink1</a>
+      </div>
+      <div class="col-md-4 project text-center">
+        <img src="http://placehold.it/500x200">
+        <h3>Sunflower</h3>
+        <a href="#">Githublink1</a>
+      </div>
+      <div class="col-md-4 project text-center">
+        <img src="http://placehold.it/500x200">
+        <h3>Bokeh</h3>
+        <a href="#">Githublink1</a>
       </div>
     </section>
 
     <!-- Footer with social links -->
-    <footer>
-      <div class="row">
-        <div class="col-md-12 social">
-          <p>Social Links</p>
-        </div>
+    <footer class="row">
+      <div class="col-md-12 social">
+        <p>Social Links</p>
       </div>
     </footer>
   </div>
